@@ -1,0 +1,27 @@
+.cardMovie {
+  margin-top: 50px;
+  list-style: none;
+  font-size: 1.5rem;
+  text-align: center;
+  transition: 0.5s;
+}
+.cardMovie:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  transform: translateY(-20px);
+  transition: 0.5s;
+}
+.imgMovie {
+  border-radius: 10px;
+  box-shadow: 0 0 8px rgba(255, 255, 255, 0.743);
+}
+.movieTitle {
+  color: #fff;
+  padding-top: 15px ;
+}
+@media screen and (max-width: 560px) {
+  .imgMovie {
+    width: 90%;
+    height: 100%;
+  }
+}
